@@ -1,4 +1,4 @@
-package com.practice.java;
+package com.practice.java.art;
 
 import java.util.concurrent.TimeUnit;
 

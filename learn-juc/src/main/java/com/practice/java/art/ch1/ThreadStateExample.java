@@ -1,13 +1,15 @@
-package com.practice.java;
+package com.practice.java.art.ch1;
+
+import com.practice.java.art.SleepUtils;
 
 /**
- * Example in The Art of Java Concurrency Programming Second Edition Chapter 1
+ * Copy from The Art of Java Concurrency Programming Second Edition
  *
  */
-public class ThreadState {
+public class ThreadStateExample {
     public static void main(String[] args) {
         new Thread(new TimeWaiting(), "TimeWaitingThread").start();
-        new Thread(new Waiting(), "WaitingThread").start();
+        new Thread(new Waiting(), "TimeWaitingThread").start();
         new Thread(new Blocked(), "BlockedThread-1").start();
         new Thread(new Blocked(), "BlockedThread-2").start();
     }
