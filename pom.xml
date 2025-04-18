@@ -14,6 +14,13 @@
         <module>design-pattern/chain-of-responsibility-pattern</module>
         <module>design-pattern/command-pattern</module>
         <module>design-pattern/iterator-pattern</module>
+        <module>design-pattern/mediator-pattern</module>
+        <module>design-pattern/memento-pattern</module>
+        <module>design-pattern/observer-pattern</module>
+        <module>learn-juc</module>
+        <module>learn-regex</module>
+        <module>learn-collection</module>
+        <module>effective-java</module>
     </modules>
 
     <properties>
