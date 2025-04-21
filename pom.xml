@@ -21,6 +21,7 @@
         <module>learn-regex</module>
         <module>learn-collection</module>
         <module>effective-java</module>
+        <module>learn-middleware</module>
     </modules>
 
     <properties>
